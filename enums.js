@@ -1,4 +1,4 @@
-import { editablePageOperationNamesLocal, eventNamesLocal, generalNamesLocal, messageTypesLocal } from "../data/enums";
+import { eventNamesLocal, generalNamesLocal, messageTypesLocal } from "../data/enums";
 
 const eventNamesLib = {
   DIALOG_OPEN: Symbol("open-dialog"),
