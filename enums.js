@@ -19,13 +19,6 @@ const generalNamesLib = {
 };
 export const generalNames = Object.freeze({ ...generalNamesLib, ...generalNamesLocal });
 
-const editablePageOperationNamesLib = {
-  LINE_ADDED: Symbol("new-line"),
-  LINE_DELETED: Symbol("delete-line"),
-  LINE_UPDATED: Symbol("update-line")
-};
-export const editablePageOperationNames = Object.freeze({ ...editablePageOperationNamesLib, ...editablePageOperationNamesLocal });
-
 const messageTypesLib = {
 
 };
