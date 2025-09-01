@@ -17,6 +17,9 @@ const generalNamesLib = {
   CONNECTION_SOLO: Symbol("connection-solo"),
   CONNECTION_OFFLINE: Symbol("connection-offline"),
 
+  BROADCAST_TYPE_REQUEST_STATE: Symbol("request-state"),
+  BROADCAST_TYPE_RECEIVE_STATE: Symbol("receive-state"),
+  BROADCAST_TYPE_CREATE_OBSERVABLE: Symbol("create-observable"),
   BROADCAST_TYPE_UPDATE_OBSERVABLE: Symbol("update-observable")
 };
 export const generalNames = Object.freeze({ ...generalNamesLib, ...generalNamesLocal });
